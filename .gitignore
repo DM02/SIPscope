@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.env
+.env.local
+
+# FastAPI
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# Node.js / React
+node_modules/
+yarn.lock
+package-lock.json
+
+# Build
+/build/
+/dist/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+*.dockerignore
+docker-compose.yml
+
+# Coverage
+coverage/
+*.cover
+
+# Jest
+jest.config.js
+coverage/
+
+# Linting
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
