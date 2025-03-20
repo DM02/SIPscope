@@ -1,13 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function FileUpload({ onFileUpload }) {
-  const [file, setFile] = useState(null);
-
+const FileUpload = ({ onFileUpload }) => {
   const handleFileChange = (event) => {
-    setFile(event.target.files[0]);
-  };
-
-  const handleUploadClick = () => {
+    const file = event.target.files[0];
     if (file) {
       onFileUpload(file);
     }
@@ -16,9 +11,8 @@ function FileUpload({ onFileUpload }) {
   return (
     <div>
       <input type="file" onChange={handleFileChange} />
-      <button onClick={handleUploadClick}>Upload</button>
     </div>
   );
-}
+};
 
 export default FileUpload;

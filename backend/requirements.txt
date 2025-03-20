@@ -1,4 +1,5 @@
 fastapi
+scapy
 uvicorn
 httpx
 python-multipart
