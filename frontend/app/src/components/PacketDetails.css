@@ -1,0 +1,30 @@
+.sip-headers-container,
+.rtp-table-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sip-table,
+.rtp-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.sip-table th,
+.sip-table td,
+.rtp-table th,
+.rtp-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.sip-table th:first-child,
+.sip-table td:first-child,
+.rtp-table th:first-child,
+.rtp-table td:first-child {
+    width: 15%;
+}
