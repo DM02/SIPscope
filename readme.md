@@ -17,7 +17,7 @@
 >Backend: FastAPI (Python)
 >Frontend: React (JavaScript)
 
-### 🏠 [Homepage](github.com/DM02/PcapForge)
+### 🏠 [Homepage](github.com/DM02/)
 
 ## Virtual environment(backend)
 
@@ -53,7 +53,7 @@ yarn start
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](github.com/DM02/PcaPForge/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](github.com/DM02/SIPscope/issues). 
 
 ## Show your support
 
