@@ -15,7 +15,7 @@
 >Export the modified packet capture as a new .pcap file.
 >
 >Backend: FastAPI (Python)
-?Frontend: React (JavaScript)
+>Frontend: React (JavaScript)
 
 ### 🏠 [Homepage](github.com/DM02/PcapForge)
 
